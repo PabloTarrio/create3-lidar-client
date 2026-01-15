@@ -11,8 +11,18 @@ Consumir el topic `/scan` (tipo `sensor_msgs/LaserScan`) desde un sistema ROS 2 
 - Red: el robot/SBC y el cliente deben estar en la misma red (o red enrutable).
 - `ROS_DOMAIN_ID` debe coincidir en todos los equipos.
 
-## Instalación (modo desarrollo)
+## Requisitos de ejecución
 
+Este paquete **requiere** ROS 2 (p. ej. Humble) instalado y el entorno cargado (`source /opt/ros/<distro>/setup.bash`) para poder usar `ScanClient`.
+
+## Ejemplo
+
+Tras cargar el entorno de ROS 2 y activar tu venv:
+
+```bash
+python examples/print_scan_stub.py
+
+## Instalación (modo desarrollo)
 ```bash
 git clone https://github.com/PabloTarrio/create3-lidar-client.git
 cd create3-lidar-client
