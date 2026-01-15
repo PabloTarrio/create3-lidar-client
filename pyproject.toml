@@ -9,6 +9,8 @@ description = "Python client library to consume /scan (sensor_msgs/LaserScan) fr
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
+[project.optional-dependencies]
+dev = ["pytest"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
