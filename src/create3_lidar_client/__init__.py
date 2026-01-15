@@ -1,5 +1,5 @@
 __all__ = ["ScanClient", "ScanClientConfig"]
-__version__ = "0.0.1"
+__version__ = "0.1.0"
 
 
 def __getattr__(name: str):
