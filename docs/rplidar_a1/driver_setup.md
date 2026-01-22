@@ -1,0 +1,1 @@
+Instalación del paquete rplidar_ros2, detección de puerto USB (`/dev/ttyUSB*`), configuración de velocidad en baudios (típicamente 115200) y verificaciones de estado.
